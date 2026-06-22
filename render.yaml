@@ -8,3 +8,8 @@ services:
     envVars:
       - key: VITE_HELIUS_KEY
         value: 151a78e1-7320-448d-8bd7-e6467526c8be
+      # Per il backend server (se aggiunto come servizio separato):
+      # - key: TELEGRAM_BOT_TOKEN
+      #   value: da-inserire
+      # - key: TELEGRAM_CHAT_IDS
+      #   value: 7639968217
