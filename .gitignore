@@ -3,3 +3,6 @@ dist/
 .vite/
 *.log
 .env
+server/node_modules/
+server/.env
+server/data/
