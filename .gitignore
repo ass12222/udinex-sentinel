@@ -6,3 +6,5 @@ dist/
 server/node_modules/
 server/.env
 server/data/
+server/server.log
+server/server.err
