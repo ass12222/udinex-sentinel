@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: udinex-sentinel
+    runtime: static
+    repo: https://github.com/ass12222/udinex-sentinel
+    buildCommand: npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_HELIUS_KEY
+        value: 151a78e1-7320-448d-8bd7-e6467526c8be
